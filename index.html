@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>fcbkListSelection</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link type="text/css" rel="stylesheet" href="fcbklistselection.css" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="fcbklistselection.min.js"></script>
+</head>
+<body>
+<h1>fcbkListSelection demo</h1>
+<form action="test.php" method="post">
+<ul id="fcbklist">
+    <li>        
+        <strong>Manuel Mujica Lainez</strong><br /> 
+        <span class="fcbkitem_text">auto complete & pre added values.</span>
+        <input type="hidden" name="fcbklist_value[]" value="Manuel Mujica Lainez" />       
+    </li>
+    <li>        
+        <strong>Gustavo Nielsen</strong><br />
+        <span class="fcbkitem_text">If you have any comments or requests, please post them and</span>
+        <input type="hidden" name="fcbklist_value[]" value="Gustavo Nielsen" />         
+    </li> 
+    <li>        
+        <strong>Silvina Ocampo</strong><br />
+        <span class="fcbkitem_text">auto complete & pre added values.</span>
+        <input type="hidden" name="fcbklist_value[]" value="Silvina Ocampo" checked="checked" />        
+    </li> 
+    <li>       
+        <strong>Antonio Porchia</strong><br />
+        <span class="fcbkitem_text">auto complete & pre added values. If you</span>
+        <input type="hidden" name="fcbklist_value[]" value="Antonio Porchia" checked="checked" />       
+    </li>
+    <li>        
+        <strong>Gustavo Nielsen</strong><br />
+        <span class="fcbkitem_text">If you have any comments or requests, please post them and</span>
+        <input type="hidden" name="fcbklist_value[]" value="Gustavo Nielsen" />         
+    </li> 
+    <li>        
+        <strong>Silvina Ocampo</strong><br />
+        <span class="fcbkitem_text">auto complete & pre added values.</span>
+        <input type="hidden" name="fcbklist_value[]" value="Silvina Ocampo" />        
+    </li> 
+    <li>       
+        <strong>Antonio Porchia</strong><br />
+        <span class="fcbkitem_text">auto complete & pre added values. If you</span>
+        <input type="hidden" name="fcbklist_value[]" value="Antonio Porchia" />       
+    </li>     
+</ul>
+<input type="submit" value="Submit" />
+</form>
+<script type="text/javascript" language="JavaScript">
+    $(document).ready(function() {
+      //id(ul id),width,height(element height),row(elements in row)        
+      $.fcbkListSelection("#fcbklist","400","50","2");
+    });    
+</script>
+</body>
+</html>
