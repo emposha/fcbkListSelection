@@ -164,8 +164,7 @@ jQuery.fcbkListSelection = function(elem, width, height, row){
                 }
             });
         } 
-        catch (e) {
-            //console.log(e);
+        catch (e) {            
         }
         //remove last ,
         string = string.substr(0, (string.length - 1));
@@ -177,8 +176,7 @@ jQuery.fcbkListSelection = function(elem, width, height, row){
         try {
             eval("this." + id + " = value;");
         } 
-        catch (e) {
-            //console.log(e);
+        catch (e) {            
         }
     }
     
@@ -204,8 +202,7 @@ jQuery.fcbkListSelection = function(elem, width, height, row){
                 }
                 $("#" + inputid).val(string);
             } 
-            catch (e) {
-                //console.log(e);
+            catch (e) {                
             }
         }
     }
