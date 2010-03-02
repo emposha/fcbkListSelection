@@ -1,0 +1,16 @@
+/*
+ fcbkListSelection 1.10
+ - Jquery version required: 1.2.x, 1.3.x, 1.4.x
+ 
+ Changelog:
+ - 1.1: added preselected items
+ - 1.0: project started
+ */
+/* Coded by: emposha <admin@emposha.com> */
+/* Copyright: Emposha.com <http://www.emposha.com/> - Distributed under MIT - Keep this message! */
+/*
+ * elem - ul element id or object
+ * width - width of ul
+ * height - height of each element
+ * row - number of items in row
+ */
