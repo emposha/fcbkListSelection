@@ -18,11 +18,44 @@ Copyright: `Emposha.com <http://www.emposha.com>`_
 
 License: Distributed under MIT license
 
------
-Usage
------
+-----------
+HTML Markup
+-----------
 
-- elem: ul element id or object
-- width: width of ul
-- height: height of each element
-- row: number of items in row
+The html pattern required for this plugin to work is (see index.html):
+
+    <ul id="fcbklist">
+        <li>        
+            <strong>Manuel Mujica Lainez</strong><br /> 
+            <span class="fcbkitem_text">auto complete & pre added values.</span>
+            <input type="hidden" name="fcbklist_value[]" value="Manuel Mujica Lainez" />       
+        </li>
+        <li>        
+            <strong>Gustavo Nielsen</strong><br />
+            <span class="fcbkitem_text">If you have any comments or requests, please post them and</span>
+            <input type="hidden" name="fcbklist_value[]" value="Gustavo Nielsen" />         
+        </li> 
+        [...]    
+    </ul>
+
+----------------
+Javascript usage
+----------------
+
+In <script> tag, put:
+
+    $(document).ready(function() {
+      $.fcbkListSelection(elem, width, height, row);
+    });
+
+Options are:
+
+- `elem`: ul element id or object
+- `width`: width of ul
+- `height`: height of each element
+- `row`: number of items in row
+
+
+For example: 
+
+    $.fcbkListSelection("#fcbklist", 400, 50, 2);
