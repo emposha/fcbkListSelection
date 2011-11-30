@@ -8,11 +8,12 @@ You can check out the Demo `here <http://www.emposha.com/demo/fcbklistselection/
 - Jquery version required: 1.2.x, 1.3.x, 1.4.x
  
 Changelog:
+
 - 1.1: added preselected items
 - 1.0: project started
 
 Coded by: emposha <admin@emposha.com>
-Copyright: `Emposha.com <http://www.emposha.com>`- Distributed under MIT - Keep this message! */
+Copyright: `Emposha.com <http://www.emposha.com>` - Distributed under MIT - Keep this message! */
 
 -----
 Usage
