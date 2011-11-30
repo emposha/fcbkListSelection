@@ -14,7 +14,9 @@ Changelog:
 
 Coded by: emposha <admin@emposha.com>
 
-Copyright: `Emposha.com <http://www.emposha.com>` - Distributed under MIT - Keep this message!
+Copyright: `Emposha.com <http://www.emposha.com>`_
+
+License: Distributed under MIT license
 
 -----
 Usage
