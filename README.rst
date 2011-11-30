@@ -20,7 +20,7 @@ Copyright: `Emposha.com <http://www.emposha.com>` - Distributed under MIT - Keep
 Usage
 -----
 
-elem: ul element id or object
-width: width of ul
-height: height of each element
-row: number of items in row
+- elem: ul element id or object
+- width: width of ul
+- height: height of each element
+- row: number of items in row
