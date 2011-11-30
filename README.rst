@@ -5,7 +5,7 @@ fcbkListSelection is a fancy item selector, just like the friends selector you c
 It is built with jQuery javascript framework, with wide range of options.
 You can check out the Demo `here <http://www.emposha.com/demo/fcbklistselection/>`_.
 
-- Jquery version required: 1.2.x, 1.3.x, 1.4.x
+- supported Jquery versions: 1.2.x, 1.3.x, 1.4.x
  
 Changelog:
 
